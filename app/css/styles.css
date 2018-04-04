@@ -168,4 +168,34 @@ nav {
     grid-template-columns: 8fr 4fr;
     grid-column-gap: 2rem; } }
 
+.btn-list {
+  display: flex;
+  padding: 6px; }
+  .btn-list li {
+    margin: 0 18px 16px 0; }
+  .btn-list .active {
+    background: #4e7c92;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px; }
+
+footer {
+  margin-top: 40px;
+  padding-top: 40px;
+  background: #4e7c92;
+  min-height: 320px; }
+  footer .siteinfo {
+    display: grid;
+    grid-template-rows: 3fr 3fr 3fr;
+    padding: 1rem;
+    margin: 0 auto;
+    color: #fff; }
+    @media (min-width: 480px) {
+      footer .siteinfo {
+        grid-template-columns: 6fr 3fr 3fr;
+        grid-column-gap: 2rem;
+        max-width: 940px; } }
+    footer .siteinfo p {
+      margin-top: 0px; }
+
 /*# sourceMappingURL=styles.css.map */
